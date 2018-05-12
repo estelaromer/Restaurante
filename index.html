@@ -4,12 +4,135 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Cafetería Estela</title>
+    <title>Café Estelar</title>
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700,700i" rel="stylesheet">
     <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-    Hola
+    <header>
+        <div class="contenedor">
+            <nav class="menu">
+                <a id="btn-acercade">Acerca de</a>
+                <a id="btn-menu">Menú</a>
+                <a id="btn-galeria">Galería</a>
+                <a id="btn-menu">Ubicación</a>
+            </nav>
+
+            <div class="titulos">
+                <h1>Café <span>Estelar</span></h1>
+                <h3>Lorem ipsum dolor sit, amet consectetur adipisicing elit.</h3>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section class="acercade" id="acercade">
+            <div class="contenedor">
+                <div class="foto"><img src="img/acerca-de.jpg" alt="Foto cefetería"></div>
+                <article>
+                    <h2>Acerca de</h2>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Inventore magni assumenda quaerat laborum nemo. Voluptates, architecto temporibus. Voluptas atque, molestiae odio debitis nesciunt unde minus cupiditate odit dolore, perferendis eum!</p>
+                </article>
+            </div>
+        </section>
+
+        <section class="menu">
+            <div class="contenedor">
+                <h2 class="titulo" id="platos">Menú</h2>
+                <div class="contenedor-menu">
+                    <div class="contenedor-menu2">
+                        <article>
+                            <p class="categoria">De comer</p>
+                            <div class="plato">
+                                <p class="nombre">Plato 1</p>
+                                <p class="precio">9€</p>
+                                <p class="descripcion">Lorem ipsum dolor, sit amet consectetur adipisicing elit</p>
+                            </div>
+                            <div class="plato">
+                                <p class="nombre">Plato 2</p>
+                                <p class="precio">12€</p>
+                                <p class="descripcion">Lorem ipsum dolor, sit amet consectetur adipisicing elit</p>
+                            </div>
+                            <div class="plato">
+                                <p class="nombre">Plato 3</p>
+                                <p class="precio">15€</p>
+                                <p class="descripcion">Lorem ipsum dolor, sit amet consectetur adipisicing elit</p>
+                            </div>
+                            <div class="plato">
+                                <p class="nombre">Plato 4</p>
+                                <p class="precio">4€</p>
+                                <p class="descripcion">Lorem ipsum dolor, sit amet consectetur adipisicing elit</p>
+                            </div>
+                        </article>
+
+                        <article>
+                            <p class="categoria">De beber</p>
+                            <div class="plato">
+                                <p class="nombre">Bebida 1</p>
+                                <p class="precio">3€</p>
+                                <p class="descripcion">Lorem ipsum dolor, sit amet consectetur adipisicing elit</p>
+                            </div>
+                            <div class="plato">
+                                <p class="nombre">Bebida 2</p>
+                                <p class="precio">2€</p>
+                                <p class="descripcion">Lorem ipsum dolor, sit amet consectetur adipisicing elit</p>
+                            </div>
+                            <div class="plato">
+                                <p class="nombre">Bebida 3</p>
+                                <p class="precio">3€</p>
+                                <p class="descripcion">Lorem ipsum dolor, sit amet consectetur adipisicing elit</p>
+                            </div>
+                            <div class="plato">
+                                <p class="nombre">Bebida 4</p>
+                                <p class="precio">2€</p>
+                                <p class="descripcion">Lorem ipsum dolor, sit amet consectetur adipisicing elit</p>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="galeria" id="galeria">
+            <div class="foto"><img src="img/1.jpg" alt="Foto 1"></div>
+            <div class="foto"><img src="img/2.jpg" alt="Foto 2"></div>
+            <div class="foto"><img src="img/3.jpg" alt="Foto 3"></div>
+            <div class="foto"><img src="img/4.jpg" alt="Foto 4"></div>
+            <div class="foto"><img src="img/5.jpg" alt="Foto 5"></div>
+            <div class="foto"><img src="img/6.jpg" alt="Foto 6"></div>
+            <div class="foto"><img src="img/7.jpg" alt="Foto 7"></div>
+            <div class="foto"><img src="img/8.jpg" alt="Foto 8"></div>
+        </section>
+
+        <section class="ubicacion" id="ubicacion">
+            <div class="contenedor">
+                <h2 class="titulo">Ubicación</h2>
+                <div class="direccion">
+                    <p class="calle">Avenida de Colombia 128 <br/> 28000 Madrid</p>
+                    <p class="telefono">(+67) 999 888 777</p>
+                    <p class="correo">contacto@estelarcafe.com</p>
+                </div>
+
+                <div class="horarios">
+                    <h4>Horarios</h4>
+                    <p class="entresemana">Lunes a Viernes<br />06:00 - 18:00</p>
+                    <p class="finde">Sábados y Domingos <br />08:00 - 14:00</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="mapa">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3035.8267541653113!2d-3.675140584780035!3d40.45697127936047!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd4229262f9c0bf3%3A0x5ce2cb932c825613!2sCalle+de+Colombia%2C+28016+Madrid!5e0!3m2!1ses!2ses!4v1525925752682"
+                width="1600" height="550" frameborder="0" style="border:0" allowfullscreen></iframe>
+        </section>
+    </main>
+
+    <footer>
+        <div class="contenedor">
+            <div class="copyright"><p>Copyright - ExperienciaBootcamp 2018</p></div>
+        </div>
+    </footer>
 </body>
 </html>
+
