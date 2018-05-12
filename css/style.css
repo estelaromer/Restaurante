@@ -71,3 +71,52 @@ header .titulos h3{
     font-style: italic;
     font-weight: 400;
 }
+
+/*****MAIN*****/
+
+main{
+    background: url(../img/bg-textura.png);
+    background-repeat: repeat;
+}
+
+main .acercade .contenedor{
+    overflow: visible;
+    position: relative;
+}
+
+main .acercade .contenedor .foto{
+    width: 80%;
+    position: absolute;
+    left: 0px;
+    top: -50px;
+    z-index: 0;
+    box-shadow: 0px 0px 15px rgba(0,0,0,.35);
+}
+
+main .acercade .contenedor .foto img{
+    vertical-align: top;
+    width: 100%;
+}
+
+main .acercade article{
+    background: #fff;
+    padding: 40px;
+    width: 50%;
+    position: relative;
+    top: 150px;
+    float: right;
+    z-index: 1;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, .35);
+
+}
+
+main .acercade article h2{
+    font-size: 50px;
+    font-weight: 300;
+    margin-bottom: 40px;
+}
+
+main .acercade article p{
+    line-height: 28px;
+    margin-bottom: 15px;
+}
