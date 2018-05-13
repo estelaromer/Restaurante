@@ -104,7 +104,7 @@ main .acercade .contenedor article{
     padding: 40px;
     width: 50%;
     position: relative;
-    top: 150px;
+    top: 500px;
     float: right;
     z-index: 1;
     -webkit-box-shadow: 0px 0px 15px rgba(0, 0, 0, .35);
@@ -258,4 +258,81 @@ footer .copyright{
     text-align: center;
     color: #fff;
     padding: 15px 0;
+}
+
+/*****MEDIA QUERIES***/
+@media screen and (max-width: 800px){
+    header .contenedor{
+        position: static;
+        height: auto;
+    }
+
+    header .titulos{
+        position: static;
+        margin: 100px 0;
+    }
+
+    header .menu{
+        text-align: center;
+    }
+
+    header .menu a{
+        margin: 10px 20px;
+    }
+
+    header .titulos h1{
+        font-size: 30px;
+    }
+
+    header .titulos h3{
+        font-size: 18px;
+    }
+
+    main .acercade .contenedor .foto{
+        width: 100%;
+        position: relative;
+    }
+
+    main .acercade .contenedor article{
+        position: relative;
+        width: 100%;
+        top: -50px;
+        transform: translate(0px, 0);
+    }
+
+    main .menu{
+        padding-top: 300px;
+    }
+
+    main .menu article{
+        width: 100%;
+    }
+
+    main .galeria .foto{
+        width: 50%;
+    }
+
+    main .mapa{
+        width: 80%;
+        margin: auto;
+    }
+}
+
+@media screen and (max-width: 400px){
+    main .acercade .contenedor article h2{
+        font-size: 34px;
+        margin-bottom: 10px;
+    }
+
+    main .menu article .nombre, main .menu article .precio{
+        font-size: 16px;
+        line-height: 16px;
+    }
+
+    main .ubicacion .direccion,
+    main .ubicacion .horarios{
+        width: 100%;
+        text-align: center;
+        margin-bottom: 15px;
+    }
 }
